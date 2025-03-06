@@ -1,0 +1,5 @@
+const notFound = (req,res)=>{
+    return res.status(404).json(`Not found 404`);
+}
+
+module.exports = notFound;
